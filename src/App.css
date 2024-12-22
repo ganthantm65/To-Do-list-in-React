@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.App{
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  font-family: "Poppins";
+  padding: 25px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 19px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 19px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 19px -4px rgba(0,0,0,0.75);
+}
+.task{
+  all: unset;
+  height: 25px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.75);
+}
+.time{
+  all: unset;
+  padding: 10px;
+  height: 25px;
+  width: 250px;
+  -webkit-box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+.add-btn{
+  all: unset;
+  width: 250px;
+  height: 25px;
+  background-color: rgb(72, 151, 41);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.List{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: baseline;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  overflow: auto;
+  padding: 5px;
+}
+.List div{
+  width: 300px;
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 11px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 11px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 11px -4px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+.delete{
+  all:unset;
+  width: 50px;
+  height: 20px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(230, 30, 30);
+  cursor: pointer;
+  border-radius: 10px;
+}
