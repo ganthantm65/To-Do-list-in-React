@@ -2,7 +2,7 @@
   "name": "todo-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ganthantm65.github.com/To-Do-list-in-React/",
+  "homepage": "https://ganthantm65.github.com/To-Do-list-in-react/",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
